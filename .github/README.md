@@ -1,4 +1,4 @@
-<h1 align="center">SOSrecon</h1>
+<h1 align="center">SOSRecon</h1>
 
 
 <p align="center">
