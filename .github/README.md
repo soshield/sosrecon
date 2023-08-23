@@ -19,7 +19,7 @@ Currently the dashboard will show: IP info, SSL chain, DNS records, cookies, hea
 The aim is to help you easily understand, optimize and secure your website.
 
 ### Screenshot
-<img src="screenshot.png">
+<img src="screenshot.png"/>
 
 ### Live Demo
 A hosted version can be accessed at: **[SOSrecon.as93.net](https://recon.soshield.org)**
@@ -42,8 +42,6 @@ None of this is hard to find with a series of basic curl commands, or a combinat
 <details>
 <summary><b>IP Address</b></summary>
 
-<img width="300" src="./screenshots/wc_ip-adress.png" align="right" />
-
 ###### Description
 The IP Address task involves mapping the user provided URL to its corresponding IP address through a process known as Domain Name System (DNS) resolution. An IP address is a unique identifier given to every device on the Internet, and when paired with a domain name, it allows for accurate routing of online requests and responses.
 
@@ -59,8 +57,6 @@ Identifying the IP address of a domain can be incredibly valuable for OSINT purp
 </details>
 <details>
 <summary><b>SSL</b></summary>
-
-<img width="300" src="https://i.ibb.co/kB7LsV1/wc-ssl.png?" align="right" />
 
 ###### Description
 The SSL task involves checking if the site has a valid Secure Sockets Layer (SSL) certificate. SSL is a protocol for establishing authenticated and encrypted links between networked computers. It's commonly used for securing communications over the internet, such as web browsing sessions, email transmissions, and more. In this task, we reach out to the server and initiate a SSL handshake. If successful, we gather details about the SSL certificate presented by the server.
@@ -78,8 +74,6 @@ SSL certificates not only provide the assurance that data transmission to and fr
 <details>
 <summary><b>DNS Records</b></summary>
 
-<img width="300" src="https://i.ibb.co/7Q1kMwM/wc-dns.png?" align="right" />
-
 ###### Description
 The DNS Records task involves querying the Domain Name System (DNS) for records associated with the target domain. DNS is a system that translates human-readable domain names into IP addresses that computers use to communicate. Various types of DNS records exist, including A (address), MX (mail exchange), NS (name server), CNAME (canonical name), and TXT (text), among others.
 
@@ -95,8 +89,6 @@ Extracting DNS records can provide a wealth of information in an OSINT investiga
 </details>
 <details>
 <summary><b>Cookies</b></summary>
-
-<img width="300" src="https://i.ibb.co/TTQ6DtP/wc-cookies.png?" align="right" />
 
 ###### Description
 The Cookies task involves examining the HTTP cookies set by the target website. Cookies are small pieces of data stored on the user's computer by the web browser while browsing a website. They hold a modest amount of data specific to a particular client and website, such as site preferences, the state of the user's session, or tracking information.
@@ -114,8 +106,6 @@ Cookies provide a wealth of information in an OSINT investigation. They can disc
 <details>
 <summary><b>Crawl Rules</b></summary>
 
-<img width="300" src="https://i.ibb.co/KwQCjPf/wc-robots.png?" align="right" />
-
 ###### Description
 The Crawl Rules task is focused on retrieving and interpreting the 'robots.txt' file from the target website. This text file is part of the Robots Exclusion Protocol (REP), a group of web standards that regulate how robots crawl the web, access and index content, and serve that content up to users. The file indicates which parts of the site the website owner doesn't want to be accessed by web crawler bots.
 
@@ -131,8 +121,6 @@ The 'robots.txt' file can provide valuable information for an OSINT investigatio
 </details>
 <details>
 <summary><b>Headers</b></summary>
-
-<img width="300" src="https://i.ibb.co/t3xcwP1/wc-headers.png?" align="right" />
 
 ###### Description
 The Headers task involves extracting and interpreting the HTTP headers sent by the target website during the request-response cycle. HTTP headers are key-value pairs sent at the start of an HTTP response, or before the actual data. Headers contain important directives for how to handle the data being transferred, including cache policies, content types, encoding, server information, security policies, and more.
@@ -150,8 +138,6 @@ Analyzing HTTP headers can provide significant insights in an OSINT investigatio
 <details>
 <summary><b>Quality Report</b></summary>
 
-<img width="300" src="https://i.ibb.co/Kqg8rx7/wc-quality.png?" align="right" />
-
 ###### Description
 The Headers task involves extracting and interpreting the HTTP headers sent by the target website during the request-response cycle. HTTP headers are key-value pairs sent at the start of an HTTP response, or before the actual data. Headers contain important directives for how to handle the data being transferred, including cache policies, content types, encoding, server information, security policies, and more.
 
@@ -168,8 +154,6 @@ Analyzing HTTP headers can provide significant insights in an OSINT investigatio
 <details>
 <summary><b>Server Location</b></summary>
 
-<img width="300" src="https://i.ibb.co/cXH2hfR/wc-location.png?" align="right" />
-
 ###### Description
 The Server Location task determines the physical location of a server hosting a website based on its IP address. The geolocation data typically includes the country, region, and often city where the server is located. The task also provides additional contextual information such as the official language, currency, and flag of the server's location country.
 
@@ -185,8 +169,6 @@ In the realm of OSINT, server location information can be very valuable. It can 
 </details>
 <details>
 <summary><b>Associated Domains and Hostnames</b></summary>
-
-<img width="300" src="https://i.ibb.co/25j1sT7/wc-hosts.png?" align="right" />
 
 ###### Description
 This task involves identifying and listing all domains and subdomains (hostnames) that are associated with the website's primary domain. This process often involves DNS enumeration to discover any linked domains and hostnames.
