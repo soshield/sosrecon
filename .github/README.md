@@ -1,4 +1,4 @@
-<h1 align="center">SOSrecon</h1>
+<h1 align="center">SOSRecon</h1>
 
 
 <p align="center">
@@ -19,7 +19,7 @@ Currently the dashboard will show: IP info, SSL chain, DNS records, cookies, hea
 The aim is to help you easily understand, optimize and secure your website.
 
 ### Screenshot
-[![Screenshot](https://raw.githubusercontent.com/soshield/sosrecon/master/.github/screenshots/SOSrecon-screenshot7.png)](https://SOSrecon.as93.net/)
+<img src="screenshot.png">
 
 ### Live Demo
 A hosted version can be accessed at: **[SOSrecon.as93.net](https://recon.soshield.org)**
