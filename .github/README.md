@@ -24,9 +24,6 @@ The aim is to help you easily understand, optimize and secure your website.
 ### Live Demo
 A hosted version can be accessed at: **[recon.soshield.org](https://recon.soshield.org)**
 
-### Mirror
-The source for this repo is mirrored to CodeBerg, available at: **[codeberg.org/alicia/SOSrecon](https://codeberg.org/alicia/SOSrecon)**
-
 ### Motivation
 Often when you're looking into a website, there's several things you always initially check.
 Think: Whois, SSL chain, DNS records, tech stack, security protocols, crawl rules, sitemap, redirects, basic performance, open ports, server info, etc.
