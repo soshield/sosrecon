@@ -2,10 +2,10 @@
 
 
 <p align="center">
-<img src="https://i.ibb.co/q1gZN2p/SOSrecon-logo.png" width="96" /><br />
+<img src="public/logo.png" width="96" /><br />
 <b><i>Comprehensive, on-demand open source intelligence for any website</i></b>
 <br />
-<b>🌐 <a href="https://SOSrecon.xyz/">SOSrecon.xyz</a></b><br />
+<b>🌐 <a href="https://recon.soshield.org">SOSrecon.xyz</a></b><br />
 
 </p>
 
