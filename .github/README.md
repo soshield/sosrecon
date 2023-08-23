@@ -5,7 +5,7 @@
 <img src="public/logo.png" width="96" /><br />
 <b><i>Comprehensive, on-demand open source intelligence for any website</i></b>
 <br />
-<b>🌐 <a href="https://recon.soshield.org">SOSrecon.xyz</a></b><br />
+<b>🌐 <a href="https://recon.soshield.org">SOSRecon</a></b><br />
 
 </p>
 
@@ -22,7 +22,7 @@ The aim is to help you easily understand, optimize and secure your website.
 [![Screenshot](https://raw.githubusercontent.com/soshield/sosrecon/master/.github/screenshots/SOSrecon-screenshot7.png)](https://SOSrecon.as93.net/)
 
 ### Live Demo
-A hosted version can be accessed at: **[SOSrecon.as93.net](https://SOSrecon.as93.net)**
+A hosted version can be accessed at: **[SOSrecon.as93.net](https://recon.soshield.org)**
 
 ### Mirror
 The source for this repo is mirrored to CodeBerg, available at: **[codeberg.org/alicia/SOSrecon](https://codeberg.org/alicia/SOSrecon)**
