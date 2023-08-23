@@ -2,7 +2,7 @@
 
 
 <p align="center">
-<img src="[public/logo.png](https://github.com/soshield/sosrecon/blob/master/public/logo.png)" width="96" /><br />
+<img src="logo.png" width="96" /><br />
 <b><i>Comprehensive, on-demand open source intelligence for any website</i></b>
 <br />
 <b>🌐 <a href="https://recon.soshield.org">SOSRecon</a></b><br />
