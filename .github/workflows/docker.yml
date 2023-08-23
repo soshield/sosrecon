@@ -14,7 +14,7 @@ on:
       - Dockerfile
 
 env:
-  IMAGE_NAME: web-check
+  IMAGE_NAME: SOSrecon
   DOCKER_USER: lissy93
   GHCR_REGISTRY: ghcr.io
   DOCKERHUB_REGISTRY: docker.io

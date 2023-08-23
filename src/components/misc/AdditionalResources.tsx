@@ -235,9 +235,9 @@ const AdditionalResources = (props: { url?: string }): JSX.Element => {
       }
     </ResourceListOuter>
     <Note>
-      These tools are not affiliated with Web-Check. Please use them at your own risk.<br />
+      These tools are not affiliated with SOSrecon. Please use them at your own risk.<br />
       At the time of listing, all of the above were available and free to use
-      - if this changes, please report it via GitHub (<a href="https://github.com/lissy93/web-check">lissy93/web-check</a>).
+      - if this changes, please report it via GitHub (<a href="https://github.com/soshield/sosrecon">soshield/sosrecon</a>).
     </Note>
   </Card>);
 }

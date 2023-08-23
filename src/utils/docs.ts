@@ -492,8 +492,8 @@ const docs: Doc[] = [
 ];
 
 export const about = [
-`Web-Check is a powerful all-in-one tool for discovering information about a website/host.
-The core philosophy is simple: feed Web-Check a URL and let it gather, collate, and present a broad array of open data for you to delve into.`,
+`SOSrecon is a powerful all-in-one tool for discovering information about a website/host.
+The core philosophy is simple: feed SOSrecon a URL and let it gather, collate, and present a broad array of open data for you to delve into.`,
 
 `The report shines a spotlight onto potential attack vectors, existing security measures,
 and the intricate web of connections within a site's architecture.
@@ -516,7 +516,7 @@ For development and deployment instructions, as well as contributing guidelines,
 `];
 
 export const license = `The MIT License (MIT)
-Copyright (c) Alicia Sykes <alicia@omg.com> 
+Copyright (c) SOShield <alicia@omg.com> 
 
 Permission is hereby granted, free of charge, to any person obtaining a copy 
 of this software and associated documentation files (the "Software"), to deal 
@@ -538,8 +538,8 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 export const supportUs = [
   "The hosted app is free to use without restriction. All the code is open source, so you're also free to deploy your own instance, or make any modifications.",
-  "Running web-check does cost me a small amount of money each month, so if you're finding the app useful, consider <a href='https://github.com/sponsors/Lissy93'>sponsoring me on GitHub</a> if you're able to. Even just $1 or $2/month would be a huge help in supporting the ongoing project running costs.",
-  "Otherwise, there are other ways you can help out, like submitting or reviewing a pull request to the <a href='https://github.com/Lissy93/web-check'>GitHub repo</a>, upvoting us on <a href='https://www.producthunt.com/posts/web-check'>Product Hunt</a>, or by sharing with your network.",
+  "Running SOSrecon does cost me a small amount of money each month, so if you're finding the app useful, consider <a href='https://github.com/sponsors/Lissy93'>sponsoring me on GitHub</a> if you're able to. Even just $1 or $2/month would be a huge help in supporting the ongoing project running costs.",
+  "Otherwise, there are other ways you can help out, like submitting or reviewing a pull request to the <a href='https://github.com/soshield/sosrecon'>GitHub repo</a>, upvoting us on <a href='https://www.producthunt.com/posts/SOSrecon'>Product Hunt</a>, or by sharing with your network.",
   "But don't feel obliged to do anything, as this app (and all my other projects) will always remain 100% free and open source, and I will do my best to ensure the managed instances remain up and available for as long as possible :)",
 ];
 

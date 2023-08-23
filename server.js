@@ -90,14 +90,14 @@ app.use(historyApiFallback({
 if (process.env.DISABLE_GUI && process.env.DISABLE_GUI !== 'false') {
   app.get('*', (req, res) => {
       res.status(500).send(
-        'Welcome to Web-Check!<br />Access the API endpoints at '
+        'Welcome to SOSrecon!<br />Access the API endpoints at '
         +'<a href="/api"><code>/api</code></a>'
       );
   });
 } else if (!fs.existsSync(guiPath)) {
   app.get('*', (req, res) => {
     res.status(500).send(
-      'Welcome to Web-Check!<br />Looks like the GUI app has not yet been compiled, '
+      'Welcome to SOSrecon!<br />Looks like the GUI app has not yet been compiled, '
       +'run <code>yarn build</code> to continue, then restart the server.'
     );
 });

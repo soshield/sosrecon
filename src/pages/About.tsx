@@ -111,7 +111,7 @@ const About = (): JSX.Element => {
     <AboutContainer>
       <Nav>
         <HeaderLinkContainer>
-          <a href="https://github.com/lissy93/web-check"><Button>View on GitHub</Button></a>
+          <a href="https://github.com/soshield/sosrecon"><Button>View on GitHub</Button></a>
         </HeaderLinkContainer>
       </Nav>
 
@@ -188,8 +188,8 @@ const About = (): JSX.Element => {
       <Section>
       <Heading as="h3" size="small" color={colors.primary}>License</Heading>
         <b>
-          <a href="https://github.com/lissy93/web-check">Web-Check</a> is distributed under the MIT license,
-          © <a href="https://aliciasykes.com">Alicia Sykes</a> { new Date().getFullYear()}
+          <a href="https://github.com/soshield/sosrecon">SOSrecon</a> is distributed under the MIT license,
+          © <a href="https://aliciasykes.com">SOShield</a> { new Date().getFullYear()}
         </b>
         <br />
         <small>For more info, see <a href="https://tldrlegal.com/license/mit-license">TLDR Legal → MIT</a></small>
@@ -213,7 +213,7 @@ const About = (): JSX.Element => {
         <Heading as="h3" size="small" color={colors.primary}>Support</Heading>
         <p>
           If you've found something that doesn't work as expected, or would like to ask any questions,
-          you can open a ticket at <a href="https://github.com/lissy93/web-check/issues">github.com/lissy93/web-check/issues</a>
+          you can open a ticket at <a href="https://github.com/soshield/sosrecon/issues">github.com/soshield/sosrecon/issues</a>
         </p>
         <hr />
         <Heading as="h3" size="small" color={colors.primary}>Sponsor</Heading>

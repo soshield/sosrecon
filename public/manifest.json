@@ -1,6 +1,6 @@
 {
-  "short_name": "Web Check",
-  "name": "Lissy93/Web-Check",
+  "short_name": "SOSrecon",
+  "name": "soshield/sosrecon",
   "icons": [
     {
       "src": "favicon.ico",
@@ -8,7 +8,7 @@
       "type": "image/x-icon"
     },
     {
-      "src": "apple-touch-icon.png",
+      "src": "logo.png",
       "type": "image/png",
       "sizes": "180x180"
     }
@@ -16,5 +16,5 @@
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#9fef00",
-  "background_color": "#141d2b"
+  "background_color": "#252526"
 }

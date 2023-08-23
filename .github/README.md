@@ -1,11 +1,11 @@
-<h1 align="center">Web-Check</h1>
+<h1 align="center">SOSrecon</h1>
 
 
 <p align="center">
-<img src="https://i.ibb.co/q1gZN2p/web-check-logo.png" width="96" /><br />
+<img src="https://i.ibb.co/q1gZN2p/SOSrecon-logo.png" width="96" /><br />
 <b><i>Comprehensive, on-demand open source intelligence for any website</i></b>
 <br />
-<b>🌐 <a href="https://web-check.xyz/">web-check.xyz</a></b><br />
+<b>🌐 <a href="https://SOSrecon.xyz/">SOSrecon.xyz</a></b><br />
 
 </p>
 
@@ -19,13 +19,13 @@ Currently the dashboard will show: IP info, SSL chain, DNS records, cookies, hea
 The aim is to help you easily understand, optimize and secure your website.
 
 ### Screenshot
-[![Screenshot](https://raw.githubusercontent.com/Lissy93/web-check/master/.github/screenshots/web-check-screenshot7.png)](https://web-check.as93.net/)
+[![Screenshot](https://raw.githubusercontent.com/soshield/sosrecon/master/.github/screenshots/SOSrecon-screenshot7.png)](https://SOSrecon.as93.net/)
 
 ### Live Demo
-A hosted version can be accessed at: **[web-check.as93.net](https://web-check.as93.net)**
+A hosted version can be accessed at: **[SOSrecon.as93.net](https://SOSrecon.as93.net)**
 
 ### Mirror
-The source for this repo is mirrored to CodeBerg, available at: **[codeberg.org/alicia/web-check](https://codeberg.org/alicia/web-check)**
+The source for this repo is mirrored to CodeBerg, available at: **[codeberg.org/alicia/SOSrecon](https://codeberg.org/alicia/SOSrecon)**
 
 ### Motivation
 Often when you're looking into a website, there's several things you always initially check.
@@ -356,7 +356,7 @@ DNSSEC information provides insight into an organization's level of cybersecurit
 
 </details>
 
-Read more here: **[web-check.as93.net/about](https://web-check.as93.net/about)**
+Read more here: **[SOSrecon.as93.net/about](https://SOSrecon.as93.net/about)**
 
 _Note that not all checks will work for all sites. Sometimes it's not possible to determine some information, and the demo instance has some limitations imposed by Netlify for the lambda functions._
 
@@ -366,8 +366,8 @@ _Note that not all checks will work for all sites. Sometimes it's not possible t
 
 ### Developing
 
-1. Clone the repo, `git clone git@github.com:Lissy93/web-check.git`
-2. Cd into it, `cd web-check`
+1. Clone the repo, `git clone git@github.com:soshield/sosrecon.git`
+2. Cd into it, `cd SOSrecon`
 3. Install dependencies: `yarn`
 4. Start the dev server, with `yarn dev`
 
@@ -378,16 +378,16 @@ Some checks also require `chromium`, `traceroute` and `dns` to be installed with
 
 Click the button below, to deploy to Netlify 👇
 
-[![Deploy to Netlify](https://img.shields.io/badge/Deploy-Netlify-%2330c8c9?style=for-the-badge&logo=netlify&labelColor=1e0e41 'Deploy Web-Check to Netlify, via 1-Click Script')](https://app.netlify.com/start/deploy?repository=https://github.com/lissy93/web-check)
+[![Deploy to Netlify](https://img.shields.io/badge/Deploy-Netlify-%2330c8c9?style=for-the-badge&logo=netlify&labelColor=1e0e41 'Deploy SOSrecon to Netlify, via 1-Click Script')](https://app.netlify.com/start/deploy?repository=https://github.com/soshield/sosrecon)
 
 ### Deploying - Option #2: Docker
 
-Run `docker run -p 8888:3000 lissy93/web-check`, then open `http://localhost:3000`
+Run `docker run -p 8888:3000 soshield/sosrecon`, then open `http://localhost:3000`
 
 You can get the Docker image from:
-- DockerHub: [`lissy93/web-check`](https://hub.docker.com/r/lissy93/web-check)
-- GHCR: [`ghcr.io/lissy93/web-check`](https://github.com/Lissy93/web-check/pkgs/container/web-check)
-- Or build the image yourself by cloning the repo and running `docker build -t web-check .`
+- DockerHub: [`soshield/sosrecon`](https://hub.docker.com/r/soshield/sosrecon)
+- GHCR: [`ghcr.io/soshield/sosrecon`](https://github.com/soshield/sosrecon/pkgs/container/SOSrecon)
+- Or build the image yourself by cloning the repo and running `docker build -t SOSrecon .`
 
 ### Deploying - Option #3: From Source
 
@@ -418,7 +418,7 @@ For Code of Conduct, see [Contributor Convent](https://www.contributor-covenant.
 
 To get started, fork the repo, make your changes, add, commit and push the code, then come back here to open a pull request. If you're new to GitHub or open source, [this guide](https://www.freecodecamp.org/news/how-to-make-your-first-pull-request-on-github-3#let-s-make-our-first-pull-request-) or the [git docs](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) may help you get started, but feel free to reach out if you need any support.
 
-[![Submit a PR](https://img.shields.io/badge/Submit_a_PR-GitHub-%23060606?style=for-the-badge&logo=github&logoColor=fff)](https://github.com/Lissy93/web-check/compare)
+[![Submit a PR](https://img.shields.io/badge/Submit_a_PR-GitHub-%23060606?style=for-the-badge&logo=github&logoColor=fff)](https://github.com/soshield/sosrecon/compare)
 
 
 ### Reporting Bugs
@@ -426,7 +426,7 @@ To get started, fork the repo, make your changes, add, commit and push the code,
 If you've found something that doesn't work as it should, or would like to suggest a new feature, then go ahead and raise a ticket on GitHub.
 For bugs, please outline the steps needed to reproduce, and include relevant info like system info and resulting logs.
 
-[![Raise an Issue](https://img.shields.io/badge/Raise_an_Issue-GitHub-%23060606?style=for-the-badge&logo=github&logoColor=fff)](https://github.com/Lissy93/web-check/issues/new/choose)
+[![Raise an Issue](https://img.shields.io/badge/Raise_an_Issue-GitHub-%23060606?style=for-the-badge&logo=github&logoColor=fff)](https://github.com/soshield/sosrecon/issues/new/choose)
 
 ### Supporting
 
@@ -439,7 +439,7 @@ For bugs, please outline the steps needed to reproduce, and include relevant inf
 ## License
 
 
-> _**[Lissy93/Web-Check](https://github.com/Lissy93/web-check)** is licensed under [MIT](https://github.com/Lissy93/web-check/blob/HEAD/LICENSE) © [Alicia Sykes](https://aliciasykes.com) 2023._<br>
+> _**[soshield/sosrecon](https://github.com/soshield/sosrecon)** is licensed under [MIT](https://github.com/soshield/sosrecon/blob/HEAD/LICENSE) © [SOShield](https://aliciasykes.com) 2023._<br>
 > <sup align="right">For information, see <a href="https://tldrlegal.com/license/mit-license">TLDR Legal > MIT</a></sup>
 
 <details>
@@ -447,7 +447,7 @@ For bugs, please outline the steps needed to reproduce, and include relevant inf
 
 ```
 The MIT License (MIT)
-Copyright (c) Alicia Sykes <alicia@omg.com> 
+Copyright (c) SOShield <alicia@omg.com> 
 
 Permission is hereby granted, free of charge, to any person obtaining a copy 
 of this software and associated documentation files (the "Software"), to deal 
@@ -471,7 +471,7 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 <!-- License + Copyright -->
 <p  align="center">
-  <i>© <a href="https://aliciasykes.com">Alicia Sykes</a> 2023</i><br>
+  <i>© <a href="https://aliciasykes.com">SOShield</a> 2023</i><br>
   <i>Licensed under <a href="https://gist.github.com/Lissy93/143d2ee01ccc5c052a17">MIT</a></i><br>
   <a href="https://github.com/lissy93"><img src="https://i.ibb.co/4KtpYxb/octocat-clean-mini.png" /></a><br>
   <sup>Thanks for visiting :)</sup>

@@ -1,4 +1,4 @@
-service: web-check-api
+service: SOSrecon-api
 
 provider:
   name: aws

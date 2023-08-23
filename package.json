@@ -1,13 +1,13 @@
 {
-  "name": "web-check",
+  "name": "SOSrecon",
   "version": "1.0.0",
   "private": false,
   "description": "All-in-one OSINT tool for analyzing any website",
-  "repository": "github:lissy93/web-check",
-  "homepage": "https://web-check.as93.net",
+  "repository": "github:soshield/sosrecon",
+  "homepage": "https://SOSrecon.as93.net",
   "license": "MIT",
   "author": {
-    "name": "Alicia Sykes",
+    "name": "SOShield",
     "email": "alicia@omg.lol"
   },
   "funding": {
@@ -66,7 +66,8 @@
     "unzipper": "^0.10.14",
     "wappalyzer": "^6.10.65",
     "web-vitals": "^3.4.0",
-    "xml2js": "^0.6.2"
+    "xml2js": "^0.6.2",
+    "yarn": "^1.22.19"
   },
   "eslintConfig": {
     "extends": [

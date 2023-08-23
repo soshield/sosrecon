@@ -44,8 +44,8 @@ function Chart(chartData: { date: string; uv: number; }[], data: any) {
     <AreaChart width={400} height={100} data={chartData}>
       <defs>
         <linearGradient id="colorUv" x1="0" y1="0" x2="0" y2="1">
-          <stop offset="20%" stopColor="#0f1620" stopOpacity={0.8} />
-          <stop offset="80%" stopColor="#0f1620" stopOpacity={0} />
+          <stop offset="20%" stopColor="#282828" stopOpacity={0.8} />
+          <stop offset="80%" stopColor="#282828" stopOpacity={0} />
         </linearGradient>
       </defs>
       <CartesianGrid strokeDasharray="4" strokeWidth={0.25} verticalPoints={[50, 100, 150, 200, 250, 300, 350]} horizontalPoints={[25, 50, 75]} />

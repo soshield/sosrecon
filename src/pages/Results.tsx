@@ -550,7 +550,7 @@ const Results = (): JSX.Element => {
         }
       </Nav>
       <ProgressBar loadStatus={loadingJobs} showModal={showErrorModal} showJobDocs={showInfo} />
-      { address?.includes(window?.location?.hostname || 'web-check.as93.net') && <SelfScanMsg />}
+      { address?.includes(window?.location?.hostname || 'SOSrecon.as93.net') && <SelfScanMsg />}
       <Loader show={loadingJobs.filter((job: LoadingJob) => job.state !== 'loading').length < 5} />
       <ResultsContent>
         

@@ -57,7 +57,7 @@ const ViewRaw = (props: { everything: { id: string, result: any}[] }) => {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
-        title: 'web-check results',
+        title: 'SOSrecon results',
         content: resultContent,
         readOnly: true,
         ttl: 3600,
@@ -78,7 +78,7 @@ const ViewRaw = (props: { everything: { id: string, result: any}[] }) => {
     const url = URL.createObjectURL(blob);
     const link = document.createElement('a');
     link.href = url;
-    link.download = 'web-check-results.json';
+    link.download = 'SOSrecon-results.json';
     link.click();
     URL.revokeObjectURL(url);
   }

@@ -52,7 +52,7 @@ const getPhishTankResult = async (url) => {
     const encodedUrl = Buffer.from(url).toString('base64');
     const endpoint = `https://checkurl.phishtank.com/checkurl/?url=${encodedUrl}`;
     const headers = {
-      'User-Agent': 'phishtank/web-check',
+      'User-Agent': 'phishtank/SOSrecon',
     };
     const response = await axios.post(endpoint, null, { headers, timeout: 3000 });
     const parsed = await xml2js.parseStringPromise(response.data, { explicitArray: false });
