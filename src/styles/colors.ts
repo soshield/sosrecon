@@ -8,7 +8,7 @@ const colors = {
   backgroundDarker: '#111927',
   backgroundLighter: '#1a2332',
   bgShadowColor: '#0f1620',
-  fgShadowColor: '#456602',
+  fgShadowColor: '#14b4e0',
   primaryTransparent: '#9fef0012',
 
   // Action Colors

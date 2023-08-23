@@ -2,10 +2,10 @@
 
 
 <p align="center">
-<img src="https://i.ibb.co/q1gZN2p/SOSrecon-logo.png" width="96" /><br />
+<img src="logo.png" width="96" /><br />
 <b><i>Comprehensive, on-demand open source intelligence for any website</i></b>
 <br />
-<b>🌐 <a href="https://SOSrecon.xyz/">SOSrecon.xyz</a></b><br />
+<b>🌐 <a href="https://recon.soshield.org">recon.soshield.org</a></b><br />
 
 </p>
 
@@ -19,10 +19,10 @@ Currently the dashboard will show: IP info, SSL chain, DNS records, cookies, hea
 The aim is to help you easily understand, optimize and secure your website.
 
 ### Screenshot
-[![Screenshot](https://raw.githubusercontent.com/soshield/sosrecon/master/.github/screenshots/SOSrecon-screenshot7.png)](https://SOSrecon.as93.net/)
+<img src="screenshot.png" />
 
 ### Live Demo
-A hosted version can be accessed at: **[SOSrecon.as93.net](https://SOSrecon.as93.net)**
+A hosted version can be accessed at: **[recon.soshield.org](https://recon.soshield.org)**
 
 ### Mirror
 The source for this repo is mirrored to CodeBerg, available at: **[codeberg.org/alicia/SOSrecon](https://codeberg.org/alicia/SOSrecon)**
@@ -42,8 +42,6 @@ None of this is hard to find with a series of basic curl commands, or a combinat
 <details>
 <summary><b>IP Address</b></summary>
 
-<img width="300" src="./screenshots/wc_ip-adress.png" align="right" />
-
 ###### Description
 The IP Address task involves mapping the user provided URL to its corresponding IP address through a process known as Domain Name System (DNS) resolution. An IP address is a unique identifier given to every device on the Internet, and when paired with a domain name, it allows for accurate routing of online requests and responses.
 
@@ -59,8 +57,6 @@ Identifying the IP address of a domain can be incredibly valuable for OSINT purp
 </details>
 <details>
 <summary><b>SSL</b></summary>
-
-<img width="300" src="https://i.ibb.co/kB7LsV1/wc-ssl.png?" align="right" />
 
 ###### Description
 The SSL task involves checking if the site has a valid Secure Sockets Layer (SSL) certificate. SSL is a protocol for establishing authenticated and encrypted links between networked computers. It's commonly used for securing communications over the internet, such as web browsing sessions, email transmissions, and more. In this task, we reach out to the server and initiate a SSL handshake. If successful, we gather details about the SSL certificate presented by the server.
@@ -78,8 +74,6 @@ SSL certificates not only provide the assurance that data transmission to and fr
 <details>
 <summary><b>DNS Records</b></summary>
 
-<img width="300" src="https://i.ibb.co/7Q1kMwM/wc-dns.png?" align="right" />
-
 ###### Description
 The DNS Records task involves querying the Domain Name System (DNS) for records associated with the target domain. DNS is a system that translates human-readable domain names into IP addresses that computers use to communicate. Various types of DNS records exist, including A (address), MX (mail exchange), NS (name server), CNAME (canonical name), and TXT (text), among others.
 
@@ -95,8 +89,6 @@ Extracting DNS records can provide a wealth of information in an OSINT investiga
 </details>
 <details>
 <summary><b>Cookies</b></summary>
-
-<img width="300" src="https://i.ibb.co/TTQ6DtP/wc-cookies.png?" align="right" />
 
 ###### Description
 The Cookies task involves examining the HTTP cookies set by the target website. Cookies are small pieces of data stored on the user's computer by the web browser while browsing a website. They hold a modest amount of data specific to a particular client and website, such as site preferences, the state of the user's session, or tracking information.
@@ -114,8 +106,6 @@ Cookies provide a wealth of information in an OSINT investigation. They can disc
 <details>
 <summary><b>Crawl Rules</b></summary>
 
-<img width="300" src="https://i.ibb.co/KwQCjPf/wc-robots.png?" align="right" />
-
 ###### Description
 The Crawl Rules task is focused on retrieving and interpreting the 'robots.txt' file from the target website. This text file is part of the Robots Exclusion Protocol (REP), a group of web standards that regulate how robots crawl the web, access and index content, and serve that content up to users. The file indicates which parts of the site the website owner doesn't want to be accessed by web crawler bots.
 
@@ -131,8 +121,6 @@ The 'robots.txt' file can provide valuable information for an OSINT investigatio
 </details>
 <details>
 <summary><b>Headers</b></summary>
-
-<img width="300" src="https://i.ibb.co/t3xcwP1/wc-headers.png?" align="right" />
 
 ###### Description
 The Headers task involves extracting and interpreting the HTTP headers sent by the target website during the request-response cycle. HTTP headers are key-value pairs sent at the start of an HTTP response, or before the actual data. Headers contain important directives for how to handle the data being transferred, including cache policies, content types, encoding, server information, security policies, and more.
@@ -150,8 +138,6 @@ Analyzing HTTP headers can provide significant insights in an OSINT investigatio
 <details>
 <summary><b>Quality Report</b></summary>
 
-<img width="300" src="https://i.ibb.co/Kqg8rx7/wc-quality.png?" align="right" />
-
 ###### Description
 The Headers task involves extracting and interpreting the HTTP headers sent by the target website during the request-response cycle. HTTP headers are key-value pairs sent at the start of an HTTP response, or before the actual data. Headers contain important directives for how to handle the data being transferred, including cache policies, content types, encoding, server information, security policies, and more.
 
@@ -167,8 +153,6 @@ Analyzing HTTP headers can provide significant insights in an OSINT investigatio
 </details>
 <details>
 <summary><b>Server Location</b></summary>
-
-<img width="300" src="https://i.ibb.co/cXH2hfR/wc-location.png?" align="right" />
 
 ###### Description
 The Server Location task determines the physical location of a server hosting a website based on its IP address. The geolocation data typically includes the country, region, and often city where the server is located. The task also provides additional contextual information such as the official language, currency, and flag of the server's location country.
@@ -186,8 +170,6 @@ In the realm of OSINT, server location information can be very valuable. It can 
 <details>
 <summary><b>Associated Domains and Hostnames</b></summary>
 
-<img width="300" src="https://i.ibb.co/25j1sT7/wc-hosts.png?" align="right" />
-
 ###### Description
 This task involves identifying and listing all domains and subdomains (hostnames) that are associated with the website's primary domain. This process often involves DNS enumeration to discover any linked domains and hostnames.
 
@@ -203,8 +185,6 @@ In OSINT investigations, understanding the full scope of a target's web presence
 </details>
 <details>
 <summary><b>Redirect Chain</b></summary>
-
-<img width="300" src="https://i.ibb.co/hVVrmwh/wc-redirects.png?" align="right" />
 
 ###### Description
 This task traces the sequence of HTTP redirects that occur from the original URL to the final destination URL. An HTTP redirect is a response with a status code that advises the client to go to another URL. Redirects can occur for several reasons, such as URL normalization (directing to the www version of the site), enforcing HTTPS, URL shorteners, or forwarding users to a new site location.
@@ -222,8 +202,6 @@ Understanding the redirect chain can be crucial for several reasons. From a secu
 <details>
 <summary><b>TXT Records</b></summary>
 
-<img width="300" src="https://i.ibb.co/wyt21QN/wc-txt-records.png?" align="right" />
-
 ###### Description
 TXT records are a type of Domain Name Service (DNS) record that provides text information to sources outside your domain. They can be used for a variety of purposes, such as verifying domain ownership, ensuring email security, and even preventing unauthorized changes to your website.
 
@@ -240,14 +218,10 @@ In the context of OSINT, TXT records can be a valuable source of information. Th
 <details>
 <summary><b>Server Status</b></summary>
 
-<img width="300" src="https://i.ibb.co/V9CNLBK/wc-status.png?" align="right" />
-
 
 </details>
 <details>
 <summary><b>Open Ports</b></summary>
-
-<img width="300" src="https://i.ibb.co/F8D1hmf/wc-ports.png?" align="right" />
 
 ###### Description
 Open ports on a server are endpoints of communication which are available for establishing connections with clients. Each port corresponds to a specific service or protocol, such as HTTP (port 80), HTTPS (port 443), FTP (port 21), etc. The open ports on a server can be determined using techniques such as port scanning.
@@ -265,8 +239,6 @@ In the context of OSINT, knowing which ports are open on a server can provide va
 <details>
 <summary><b>Traceroute</b></summary>
 
-<img width="300" src="https://i.ibb.co/M59qgxP/wc-trace-route.png?" align="right" />
-
 ###### Description
 Traceroute is a network diagnostic tool used to track in real-time the pathway taken by a packet of information from one system to another. It records each hop along the route, providing details about the IPs of routers and the delay at each point.
 
@@ -282,8 +254,6 @@ In OSINT investigations, traceroute can provide insights about the routing paths
 </details>
 <details>
 <summary><b>Carbon Footprint</b></summary>
-
-<img width="300" src="https://i.ibb.co/dmbFxjN/wc-carbon.png?" align="right" />
 
 ###### Description
 This task calculates the estimated carbon footprint of a website. It's based on the amount of data being transferred and processed, and the energy usage of the servers that host and deliver the website. The larger the website and the more complex its features, the higher its carbon footprint is likely to be.
@@ -301,8 +271,6 @@ From an OSINT perspective, understanding a website's carbon footprint doesn't di
 <details>
 <summary><b>Server Info</b></summary>
 
-<img width="300" src="https://i.ibb.co/Mk1jx32/wc-server.png?" align="right" />
-
 ###### Description
 This task retrieves various pieces of information about the server hosting the target website. This can include the server type (e.g., Apache, Nginx), the hosting provider, the Autonomous System Number (ASN), and more. The information is usually obtained through a combination of IP address lookups and analysis of HTTP response headers.
 
@@ -319,8 +287,6 @@ In an OSINT context, server information can provide valuable clues about the org
 <details>
 <summary><b>Domain Info</b></summary>
 
-<img width="300" src="https://i.ibb.co/89WLp14/wc-domain.png?" align="right" />
-
 ###### Description
 This task retrieves Whois records for the target domain. Whois records are a rich source of information, including the name and contact information of the domain registrant, the domain's creation and expiration dates, the domain's nameservers, and more. The information is usually obtained through a query to a Whois database server.
 
@@ -335,8 +301,6 @@ In an OSINT context, Whois records can provide valuable clues about the entity b
 </details>
 <details>
 <summary><b>DNS Security Extensions</b></summary>
-
-<img width="300" src="https://i.ibb.co/J54zVmQ/wc-dnssec.png?" align="right" />
 
 ###### Description
 Without DNSSEC, it's possible for MITM attackers to spoof records and lead users to phishing sites. This is because the DNS system includes no built-in methods to verify that the response to the request was not forged, or that any other part of the process wasn’t interrupted by an attacker. The DNS Security Extensions (DNSSEC) secures DNS lookups by signing your DNS records using public keys, so browsers can detect if the response has been tampered with. Another solution to this issue is DoH (DNS over HTTPS) and DoT (DNS over TLD).
@@ -356,7 +320,7 @@ DNSSEC information provides insight into an organization's level of cybersecurit
 
 </details>
 
-Read more here: **[SOSrecon.as93.net/about](https://SOSrecon.as93.net/about)**
+Read more here: **[recon.soshield.org/about](https://recon.soshield.org/about)**
 
 _Note that not all checks will work for all sites. Sometimes it's not possible to determine some information, and the demo instance has some limitations imposed by Netlify for the lambda functions._
 
@@ -471,23 +435,9 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 <!-- License + Copyright -->
 <p  align="center">
-  <i>© <a href="https://aliciasykes.com">SOShield</a> 2023</i><br>
-  <i>Licensed under <a href="https://gist.github.com/Lissy93/143d2ee01ccc5c052a17">MIT</a></i><br>
-  <a href="https://github.com/lissy93"><img src="https://i.ibb.co/4KtpYxb/octocat-clean-mini.png" /></a><br>
+  <i>© <a href="https://soshield.org">SOShield</a> 2023</i><br>
+  <i>Licensed under <a href="https://gist.github.com/soshield/143d2ee01ccc5c052a17">MIT</a></i><br>
+  <a href="https://github.com/soshield"><img src="https://i.ibb.co/4KtpYxb/octocat-clean-mini.png" /></a><br>
   <sup>Thanks for visiting :)</sup>
 </p>
-
-<!-- Dinosaur -->
-<!-- 
-                        . - ~ ~ ~ - .
-      ..     _      .-~               ~-.
-     //|     \ `..~                      `.
-    || |      }  }              /       \  \
-(\   \\ \~^..'                 |         }  \
- \`.-~  o      /       }       |        /    \
- (__          |       /        |       /      `.
-  `- - ~ ~ -._|      /_ - ~ ~ ^|      /- _      `.
-              |     /          |     /     ~-.     ~- _
-              |_____|          |_____|         ~ - . _ _~_-_
--->
 
